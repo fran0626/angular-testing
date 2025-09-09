@@ -17,6 +17,7 @@ import { BehaviorSubject, delay, Subject } from 'rxjs';
     HighlightDirective,
     FormsModule,
   ],
+  standalone: true,
   templateUrl: './about.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

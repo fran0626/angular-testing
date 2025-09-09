@@ -9,7 +9,6 @@ import { environment } from '@env/environment';
 
 @Component({
   selector: 'app-locations',
-  imports: [],
   templateUrl: './locations.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

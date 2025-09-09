@@ -6,6 +6,7 @@ import { HeaderComponent } from '@shared/components/header/header.component';
 @Component({
   selector: 'app-layout',
   imports: [CommonModule, HeaderComponent, RouterModule],
+  standalone: true,
   templateUrl: './layout.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

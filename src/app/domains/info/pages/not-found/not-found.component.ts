@@ -5,6 +5,7 @@ import { RouterLinkWithHref } from '@angular/router';
 @Component({
   selector: 'app-not-found',
   imports: [CommonModule, RouterLinkWithHref],
+  standalone: true,
   templateUrl: './not-found.component.html',
   styleUrls: ['./not-found.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,

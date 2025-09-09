@@ -14,6 +14,7 @@ import WaveSurfer from 'wavesurfer.js';
 @Component({
   selector: 'app-wave-audio',
   imports: [CommonModule],
+  standalone: true,
   templateUrl: './wave-audio.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

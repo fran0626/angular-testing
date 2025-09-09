@@ -17,6 +17,7 @@ import { SearchComponent } from '../search/search.component';
     RouterLinkActive,
     SearchComponent,
   ],
+  standalone: true,
   templateUrl: './header.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

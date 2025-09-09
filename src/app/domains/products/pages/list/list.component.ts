@@ -18,6 +18,7 @@ import { rxResource } from '@angular/core/rxjs-interop';
 @Component({
   selector: 'app-list',
   imports: [CommonModule, ProductComponent, RouterLinkWithHref],
+  standalone: true,
   templateUrl: './list.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

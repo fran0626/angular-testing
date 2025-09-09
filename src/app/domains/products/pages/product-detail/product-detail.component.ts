@@ -16,6 +16,7 @@ import { RelatedComponent } from '@products/components/related/related.component
 @Component({
   selector: 'app-product-detail',
   imports: [CommonModule, NgOptimizedImage, RelatedComponent],
+  standalone: true,
   templateUrl: './product-detail.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

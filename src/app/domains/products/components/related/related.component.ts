@@ -11,6 +11,7 @@ import { ProductService } from '@shared/services/product.service';
 @Component({
   selector: 'app-related',
   imports: [ProductComponent],
+  standalone: true,
   templateUrl: './related.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

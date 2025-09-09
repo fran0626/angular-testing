@@ -13,6 +13,7 @@ import { TimeAgoPipe } from '@shared/pipes/time-ago.pipe';
 @Component({
   selector: 'app-product',
   imports: [CommonModule, TimeAgoPipe, RouterLinkWithHref, NgOptimizedImage],
+  standalone: true,
   templateUrl: './product.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

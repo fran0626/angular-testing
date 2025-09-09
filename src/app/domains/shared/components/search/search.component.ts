@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-search',
   imports: [CommonModule, FormsModule],
+  standalone: true,
   templateUrl: './search.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

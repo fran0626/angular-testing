@@ -16,6 +16,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-counter',
   imports: [CommonModule],
+  standalone: true,
   templateUrl: './counter.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
