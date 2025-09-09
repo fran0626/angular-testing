@@ -10,6 +10,7 @@ const config: Config = {
   collectCoverage: true,
   coverageReporters: ['html', 'text-summary'],
   coverageDirectory: 'coverage/my-app',
+  collectCoverageFrom: ['src/app/**/*.ts'],
 };
 
 export default config;
